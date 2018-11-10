@@ -15,11 +15,11 @@ Crawl the infomation about competitons, when new infos comes, remind people on W
 
 布局`<Table>`
 
-![Nonetbody](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/Nonetbody.jpgNonetbody.jpg)
+![Nonetbody](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/Nonetbody.jpg)
 
 表格`<table>`
 
-![Table_tbody](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/Nonetbody.jpgTable_tbody.jpg)
+![Table_tbody](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/Table_tbody.jpg)
 
 
 
@@ -42,7 +42,7 @@ if content.tag == 'table':
     tableover = '|' + ':---:|' * len(tabletitle)  # 居中显示
 ```
 
-![real_code](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/Nonetbody.jpgreal_code.jpg)
+![real_code](https://github.com/Freedomisgood/SeverChan_Nyedu/blob/master/images/real_code.jpg)
 
 
 

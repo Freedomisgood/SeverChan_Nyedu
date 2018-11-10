@@ -2,6 +2,7 @@ import requests
 from lxml import etree
 import time
 import re
+from logfile import logger
 
 
 headers={
@@ -20,14 +21,15 @@ def get_newest_info(secret_key):
         title = content.xpath('td/table/tr/td[1]/a/text()')[0]
         href = content.xpath('td/table/tr/td[1]/a/@href')[0]
         submittime = content.xpath('td/table/tr/td[2]/div/text()')[0]
-        if title.startswith('【实践科】') and submittime=="2018-11-06":
+        if title.startswith('【实践科】') and submittime=="2018-11-09":
             if href.endswith('.htm'):
                 detail = getDetailpage(href)
                 data_info = {
                     'text': title ,
                     'desp': detail
                 }
-                submit_info(secret_key,data_info)
+                # submit_info(secret_key,data_info)
+                logger.info('完成发送')
 
 
 def getDetailpage(aurl):

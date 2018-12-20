@@ -53,3 +53,8 @@ html = requests.get('http://jwc.njupt.edu.cn/1594/list.htm',headers = headers)
 html.encoding = 'utf-8'
 #Requests库的自身编码为: r.encoding = ‘ISO-8859-1’
 ```
+
+
+TODO: 
+- 专门写个获得内容的函数,方便转发给多人
+- 将超链接<a>也趴下来

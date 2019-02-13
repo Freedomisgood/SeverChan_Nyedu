@@ -71,6 +71,6 @@ def submit_info(secret_key,info):
 
 
 if __name__ == "__main__" :
-    get_newest_info('SCU35113Te369cebc21f6e483c03fffc400c4c5c05bdad63995c32')
+    get_newest_info('*')
 
 

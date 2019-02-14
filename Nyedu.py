@@ -28,7 +28,7 @@ def get_newest_info(secret_key):
                     'text': title ,
                     'desp': detail
                 }
-                # submit_info(secret_key,data_info)
+                submit_info(secret_key,data_info)
                 logger.info('完成发送')
 
 

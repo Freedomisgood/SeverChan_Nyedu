@@ -16,7 +16,7 @@ def get_newest_info(secret_key):
     html.encoding = 'utf-8'
     #Requests库的自身编码为: r.encoding = ‘ISO-8859-1’
     data = etree.HTML(html.text)
-    contentList = data.xpath('//*[@id="newslist"]/div/table/tr')
+    contentList = data.xpath('//*[@id="newslist"]/div/div/table/tr')
     for content in contentList:
         title = content.xpath('td/table/tr/td[1]/a/text()')[0]
         href = content.xpath('td/table/tr/td[1]/a/@href')[0]

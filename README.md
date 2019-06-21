@@ -58,3 +58,7 @@ html.encoding = 'utf-8'
 TODO: 
 - 专门写个获得内容的函数,方便转发给多人
 - 将超链接<a>也趴下来
+
+
+#### 更新
+- 2019-6-10 没有接收到信息，21号查看时发现`//*[@id="newslist"]/div/table/tr`变成了`//*[@id="newslist"]/div/div/table/tr`
